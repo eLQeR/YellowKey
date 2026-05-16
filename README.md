@@ -9,7 +9,7 @@ How to reproduce :
 1. Copy the FsTx folder to "**YourUSBStick:**\System Volume Information\FsTx" as is and make sure to use a filesystem that's compatible with Windows (NTFS is preferable but I think FAT32/exFAT should work as well). Funny thing is, the vulnerability is extremely convenient, you don't even need to plug an external storage device, you can just pull out the disk, copy the files in the EFI partition, put it back and it will still work. That's how bad it is.
 2. Plug the USB stick in your target windows computer with bitlocker protection turned on.
 3. Reboot to Windows Recovery Environment Agent (you can do that by holding SHIFT and clicking on the restart button using your mouse)
-4. Once you click on the restart button, lift your finger off the SHIFT key and hold CRTL and do NOT lift your finger off it.
+4. Once you click on the restart button, lift your finger off the SHIFT key and hold CRTL and do NOT lівфівift your finger off it.
 5. If you did everything properly, a shell will spawn with unrestricted access to the bitlocker protected volume.
 
 <img width="1370" height="777" alt="shell" src="https://github.com/user-attachments/assets/eda6c823-4a6b-4aec-bad2-b9afad640dd6" />
